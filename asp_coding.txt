@@ -1,0 +1,230 @@
+home:
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="nidhi._Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="img/1.jpg" link="black">
+    <h1>
+        <font face="lato" size="8">Logo</font>
+        <font face="cinzial" size="5">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="default.aspx">HOME</a>&nbsp;&nbsp;&nbsp;
+            <a href="about.aspx">ABOUT</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">CRUD</a>
+        </font>
+    </h1>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h1 align="center">
+    <font face="lato" size="8">WE are creative</font>
+    <br />
+    <a href="#">Contact us</a>
+    </h1>
+</body>
+</html>
+
+
+about:
+
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="about.aspx.vb" Inherits="nidhi.about" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="img/1.jpg" link="black">
+    <h1>
+        <font face="lato" size="8">Logo</font>
+        <font face="cinzial" size="5">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="default.aspx">HOME</a>&nbsp;&nbsp;&nbsp;
+            <a href="about.aspx">ABOUT</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">CRUD</a>
+        </font>
+    </h1>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h1 align="center">
+    <font face="lato" size="8">About us</font>
+    
+    </h1>
+</body>
+</html>
+
+
+crud:
+
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="crud.aspx.vb" Inherits="nidhi.crud" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="img/1.jpg" link="black">
+    <form id="form1" runat="server">
+    <h1>
+        <font face="lato" size="8">Logo</font>
+        <font face="cinzial" size="5">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="default.aspx">HOME</a>&nbsp;&nbsp;&nbsp;
+            <a href="about.aspx">ABOUT</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">CRUD</a>
+        </font>
+    </h1>
+    <br /><br />
+    <h1 align="center">
+    <font face="lato" size="5">Crud operation</font>
+    </h1>
+    <br />
+    <center>
+    <asp:Panel ID="Panel1" runat="server" BackColor="White" Height="355px" 
+            Width="872px">
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="Rno"></asp:Label>
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtrno" runat="server"></asp:TextBox>
+        &nbsp;
+        <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+        &nbsp;
+        <br />
+        <br />
+        <asp:Button ID="btninsert" runat="server" Text="INSERT" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnupdate" runat="server" Text="UPDATE" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btndelete" runat="server" Text="DELETE" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnsearch" runat="server" Text="SEARCH" />
+        <br />
+        <br />
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+            BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" 
+            CellPadding="3" DataKeyNames="ID" DataSourceID="SqlDataSource1">
+            <RowStyle ForeColor="#000066" />
+            <Columns>
+                <asp:BoundField DataField="ID" HeaderText="ID" InsertVisible="False" 
+                    ReadOnly="True" SortExpression="ID" />
+                <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
+            </Columns>
+            <FooterStyle BackColor="White" ForeColor="#000066" />
+            <PagerStyle BackColor="White" ForeColor="#000066" HorizontalAlign="Left" />
+            <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
+            ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" 
+            SelectCommand="SELECT * FROM [student]"></asp:SqlDataSource>
+    </asp:Panel>
+    </center>
+</form>
+    
+</body>
+</html>
+
+
+crud coding
+
+Imports System.Data.OleDb
+Partial Public Class crud
+    Inherits System.Web.UI.Page
+    Dim cn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\HP\Documents\nidhi.accdb")
+    
+    Protected Sub btninsert_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btninsert.Click
+        Try
+            Dim str As String
+            Dim ans As Integer
+            str = "insert into student values(" & txtrno.Text & ",'" & txtname.Text & "')"
+            cn.Open()
+            Dim cmd As New OleDbCommand(str, cn)
+            ans = cmd.ExecuteNonQuery
+            MsgBox("inserted successfully")
+            GridView1.DataBind()
+            cn.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Sub
+
+    Protected Sub btnupdate_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnupdate.Click
+        Try
+            Dim str As String
+            Dim ans As Integer
+            str = "update student set name='" & txtname.Text & "' where id=" & txtrno.Text & ""
+            cn.Open()
+            Dim cmd As New OleDbCommand(str, cn)
+            ans = cmd.ExecuteNonQuery
+            MsgBox("update successfully")
+            GridView1.DataBind()
+            cn.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Sub
+
+    Protected Sub btndelete_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btndelete.Click
+        Try
+            Dim str As String
+            Dim ans As Integer
+            str = "delete from student where id=" & txtrno.Text & ""
+            cn.Open()
+            Dim cmd As New OleDbCommand(str, cn)
+            ans = cmd.ExecuteNonQuery
+            MsgBox("delete successfully")
+            GridView1.DataBind()
+            cn.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Sub
+
+    Protected Sub btnsearch_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnsearch.Click
+        Try
+            Dim str As String
+            str = "select * from student where id=" & txtrno.Text & ""
+            cn.Open()
+            Dim cmd As New OleDbCommand(str, cn)
+            Dim dr As OleDbDataReader
+            dr = cmd.ExecuteReader
+            While dr.Read
+                txtname.Text = dr.Item(1).ToString
+            End While
+            GridView1.DataBind()
+            cn.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Sub
+End Class
